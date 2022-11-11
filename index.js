@@ -11,7 +11,7 @@ app.listen(3001, ()=>{
 
 
 app.get("/",(request,res)=>{
-    return  res.render("index");
+    return  res.render("index.js");
 })
 
 //Creando la ruta de descarga
